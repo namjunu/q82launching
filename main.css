@@ -1,0 +1,269 @@
+
+a:link{
+    color : black;
+    text-decoration-line: none;
+}
+/* 링크 색 검정으로 */
+a:hover{
+    color : rgba(0, 0, 255, 0.637);
+}
+
+
+.content{
+    width : 1461px;
+    height : 937px;
+    display : block;
+}
+
+.top{
+    z-index : 3;
+}
+
+.topMenu{
+    position :fixed;
+    margin-top : 30px;
+    width : 1299px;
+    height : 24px;
+    margin-block-end : 1em;
+}
+.topMenuLink{
+    display: flex;
+    flex-direction: row;
+    height : 100%;
+    float : right;
+    margin-right:40px;
+    padding:0 0 0 10px;
+    font-size : 16px; 
+    text-decoration : none;
+}
+.leftMenu{
+    position: relative;
+    height : 100%;
+    left : 0;
+    top: 0;
+    width: 70px;
+    float: left;
+}
+
+
+
+.mainMenu{
+    height: 100vh;
+    display: block;
+}
+
+
+
+
+.mainMenu2{
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.mainMenuTopLeft{
+    width: 565px;
+    height: 435px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+}
+.topLeftTittle{
+    width : 200px;
+    height : 100px;
+    margin : 100px 0 0 0;
+    font-size : 32px;
+}
+.topLeftCall{
+    display:flex;
+    height : 50px;
+    align-items: center;
+}
+.Call{
+    width: 60px;
+    height : 48px;
+    font-size : 24px;
+    
+}
+.CallNumber{
+    height: 48px;
+    font-size : 32px;
+}
+
+.topAsk1{
+    display : flex;
+    height : 24px;
+    font-size : 16px;
+}
+.topAskNum1{
+    float: left;
+    font-weight: 1000;
+}
+.topAsk2{
+    display : flex;
+    height : 24px;
+    font-size : 16px;
+    float: top;
+}
+.topAskNum2{
+    float: left;
+    font-weight: 1000;
+}
+.topAskBot{
+    float: top;
+    font-size: 12px;
+}
+
+
+
+
+
+
+.mainMenuTopRight{
+    float: left;
+    height : 435px;
+    width : 826px;
+    background-color: snow;
+    
+}
+.topRightText{
+    height:50px;
+    width: 300px;
+    padding: 170px 0 0 43px;
+    display: flex;
+    float: left bottom;
+}
+
+.textYear{
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    height: 45px;
+    color:rgba(0, 0, 255, 0.5);
+    align-items: bottom;
+}
+.textYearNum{
+    height: 45px;
+    font-size : 45px;
+    float: left;
+    color:rgba(0, 0, 255, 0.5);
+}
+.success{
+    padding: 40px 0 0 60px;
+    font-size: 120px;
+    float: left bottom;
+}
+.successText{
+    font-size: 30px;
+    padding: 0px 0 0 200px ;
+    font-weight: 700;
+    left: bottom;
+
+}
+
+
+
+.mainMenuBotLeft{
+    height : 502px;
+    width : 565px;
+    background-color : snow;
+    float: left;
+}
+.BotLeftBox1{
+    height : 100px;
+    width : 100px;
+    margin-top : 20px;
+    margin-left : 35px;
+}
+.BotLeftBox2{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+.BotLeftBox3{
+    height : 100px;
+    width : 100px;
+    margin-left:35px;
+}
+.BotLeftBox4{
+    height : 100px;
+    width : 100px;
+    margin-left:35px;
+}
+.BotLeftBox5{
+    height : 100px;
+    width : 100px;
+    margin-top : 20px;
+    margin-left : 35px;
+}
+.BotLeftBox6{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+.BotLeftBox7{
+    height : 100px;
+    width : 100px;
+    margin-left:35px;
+}
+.BotLeftBox8{
+    height : 100px;
+    width : 100px;
+    margin-left:35px;
+}
+.BotLeftBox9{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+    margin-top : 20px;
+}
+.BotLeftBox10{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+.BotLeftBox11{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+.BotLeftBox12{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+.BotLeftBox13{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+    margin-top : 20px;
+}
+.BotLeftBox14{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+
+.BotLeftBox15{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+.BotLeftBox16{
+    height : 100px;
+    width : 100px;
+    margin-left : 35px;
+}
+
+
+
+
+
+.mainMenuBotRight{
+    width : 826px;
+    height : 502px;
+    background-color: rgba(0, 0, 255, 0.308);
+    color : snow;
+    position: relative;
+    float: right;
+}
